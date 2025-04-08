@@ -1,0 +1,165 @@
+# ==============================
+# General System Files
+# ==============================
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ==============================
+# Python Files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================
+# Package and Dependency Management
+# ==============================
+.Python
+.pdm.toml
+.pdm-python
+.pdm-build/
+.pybuilder/
+target/
+Pipfile.lock
+poetry.lock
+pdm.lock
+
+# ==============================
+# Build and Distribution
+# ==============================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================
+# Logs and Debugging
+# ==============================
+*.log
+*.out
+*.tmp
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==============================
+# Testing and Coverage
+# ==============================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ==============================
+# Project-Specific Configuration
+# ==============================
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# ==============================
+# Framework-Specific
+# ==============================
+# Django
+*.mo
+*.pot
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx Documentation
+docs/_build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Pyre Type Checker
+.pyre/
+.pytype/
+
+# ==============================
+# R-Related Files
+# ==============================
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.Ruserdata
+.Renviron
+httr-oauth
+vignettes/*.html
+vignettes/*.pdf
+/*.tar.gz
+/*.Rcheck/
+.Rproj.user/
+docs/
+po/*~
+
+# ==============================
+# Editor/IDE Files
+# ==============================
+.spyderproject
+.spyproject
+.ropeproject
+.idea/
+.dmypy.json
+dmypy.json
+.mypy_cache/
+
+# ==============================
+# Miscellaneous
+# ==============================
+celerybeat-schedule
+celerybeat.pid
+cython_debug/
+
+# ==============================
+# Data Files (Ignore Specific Folders)
+# ==============================
+lab*/data/
