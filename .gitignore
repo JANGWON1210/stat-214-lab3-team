@@ -162,4 +162,4 @@ cython_debug/
 # ==============================
 # Data Files (Ignore Specific Folders)
 # ==============================
-lab*/data/
+data/
