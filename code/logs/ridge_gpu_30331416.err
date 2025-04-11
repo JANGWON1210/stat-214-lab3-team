@@ -1,0 +1,7 @@
+
+EnvironmentNameNotFound: Could not find conda environment: env214
+You can list all discoverable environments with `conda info --envs`.
+
+
+/var/spool/slurm/d/job30331416/slurm_script: line 19: 101419 Killed                  python part_2.py
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=30331416.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
