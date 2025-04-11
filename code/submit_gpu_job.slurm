@@ -13,7 +13,7 @@ mkdir -p logs
 
 # 환경 설정
 module load anaconda3
-source activate env214
+source activate env_214
 
 # 실행
 python part_2.py
