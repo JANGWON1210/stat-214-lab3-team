@@ -14,6 +14,10 @@ dependencies:
   - ipykernel
   - joblib
   - tqdm
+  - pytorch
+  - torchvision
+  - torchaudio
+  - transformers
   - pip
   - pip:
       - matplotlib-inline

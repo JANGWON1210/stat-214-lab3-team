@@ -12,9 +12,11 @@ fi
 echo "Activating environment..."
 conda activate stat214
 
-# Run notebooks
+# Run notebooks sequentially
 echo "Executing notebooks..."
-jupyter nbconvert --to notebook --execute --inplace part_1.ipynb
-jupyter nbconvert --to notebook --execute --inplace part_2.ipynb
 
-echo "All notebooks executed."
+jupyter nbconvert --to notebook --execute --inplace 3.2_part_1.ipynb
+jupyter nbconvert --to notebook --execute --inplace 3.2_part_2_colab.ipynb
+jupyter nbconvert --to notebook --execute --inplace 3.2_part_2_regression.ipynb
+
+echo "All notebooks executed successfully."
