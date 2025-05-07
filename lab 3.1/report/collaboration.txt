@@ -1,0 +1,40 @@
+Contributions of each student
+
+Team Member (Team 14)
+- Jangwon Lee
+- Xiaotong Zhan 
+- Xiaoyi Chen
+
+
+Contribution on Project
+
+ 1. Xiaotong Zhan - Part 1: Generating Embeddings
+    ☐ Generate embedding vectors using Bag-of-Words.
+    ☐ Use downsample_word_vectors from code/preprocessing.py to match dimensions.
+    ☐ Create lagged versions of the features using make_delayed from code/preprocessing.py with delays in [1, 4].
+    ☐ Repeat the above steps using pre-trained Word2Vec embeddings.
+    ☐ Repeat the above steps using pre-trained GloVe embeddings.
+
+
+ 2. Xiaoyi Chen - Part 2: Modeling & Evaluation
+    ☐ Fit a ridge regression model for each type of embedding.
+    ☐ Design a cross-validation scheme to compare models.
+       ☐ Analyze model by calculating Mean test CC, Median test CC, Top 1 percentile CC, Top 5 percentile CC
+    ☐ For the best-performing embedding (B2W)
+       ☐ Analyze the distribution of CC across voxels.
+       ☐ Plot the CC distribution.
+       ☐ Describe any patterns or insights from the distribution.
+    ☐ Evaluate whether the model performs well across all voxels.
+    ☐ Perform a stability analysis.
+
+  3. Jangwon Lee
+    ☐ Before Xiaoyi took over Part 2, it was initially assigned to Jangwon Lee, who made efforts to obtain results but was unsuccessful, which led to Xiaoyi taking over the task.
+    ☐ Refine the part_2.ipynb notebook for readability by adding docstrings and comments.
+    ☐ Performed tasks such as writing run.sh, environment.yaml, and other necessary components to meet the output requirements.
+
+Report Latex
+Introduction - Completed by Jangwon Lee
+Part 1 - Completed by Xiaotong Zhan
+Part 2 - Completed by Xiaoyi Chen
+Conclusion - Completed by Jangwon Lee
+Academic integrity - Completed by Jangwon Lee
