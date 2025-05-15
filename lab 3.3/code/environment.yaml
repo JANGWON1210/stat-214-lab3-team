@@ -1,0 +1,26 @@
+name: stat214
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - joblib
+  - tqdm
+  - pytorch
+  - torchvision
+  - torchaudio
+  - transformers
+  - shap
+  - lime
+  - pip
+  - pip:
+      - matplotlib-inline
+      - jupyterlab
