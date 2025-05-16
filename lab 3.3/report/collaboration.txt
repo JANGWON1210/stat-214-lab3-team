@@ -1,0 +1,36 @@
+Contributions of each student
+
+Team Member (Team 14)
+- Jangwon Lee
+- Xiaotong Zhan 
+- Xiaoyi Chen
+
+
+Contribution on Project
+
+ 1. Xiaotong Zhan
+    ☐ Used the pre-trained BERT model (bert-base-uncased) to extract embeddings.
+    ☐ Fitted ridge regression models on these embeddings to predict fMRI voxel responses.
+    ☐ Applied a parameter-efficient fine-tuning method (LoRA) and trained models accordingly.
+    ☐ Evaluated and compared model performance
+
+ 2. Xiaoyi Chen
+    ☐ Fine-tuned the BERT model on the voxel prediction task using supervised training.
+    ☐ Selected test stories and identified top-performing voxels based on prediction correlation scores.
+    ☐ Applied SHAP to explain which words most influenced voxel-level predictions.
+    ☐ Applied LIME to perform a parallel interpretability analysis.
+    ☐ Repeated interpretability analysis for a second test story.
+
+ 3. Jangwon Lee
+    ☐ Compared SHAP and LIME results
+      ☐ Assessed overlap and differences in important words.
+      ☐ Evaluated interpretability and consistency across voxels.
+    ☐ Code management (consistency, reproducibility, etc.) and schedule management
+    ☐ Performed tasks such as writing run.sh, environment.yaml, and other necessary components to meet the output requirements.
+
+Write Report using Latex
+Introduction - Completed by Jangwon Lee
+Part 1 - Completed by Xiaoyi Chen
+Part 2 - Completed by Jangwon Lee
+Conclusion - Completed by Jangwon Lee
+Academic integrity - Completed by Jangwon Lee
